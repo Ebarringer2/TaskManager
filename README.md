@@ -1,2 +1,2 @@
 # TaskManager
-simple task manager
+simple task manager written in c++
