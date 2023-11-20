@@ -40,6 +40,7 @@ class TaskManager
 {
     public:
         int no_tasks;
+        bool running = true;
         std::vector<Task> tasksV;
         std::vector<DueDate> ddV;
     void createTask(std::string task_txt, int timefromNow, int task_no, bool isCompleted, bool isPast)
